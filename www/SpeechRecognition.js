@@ -33,7 +33,7 @@ var SpeechRecognition = function (lang) {
         console.log("initialized");
     }, function(e) {
         console.log("error: " + e);
-    }, "SpeechRecognition", "init", []);
+    }, "SpeechRecognition", "init", [lang]);
 };
 
 SpeechRecognition.prototype.start = function() {
