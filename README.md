@@ -23,7 +23,7 @@ var recognition;
 document.addEventListener('deviceready', onDeviceReady, false);
 
 function onDeviceReady() {
-    recognition = new SpeechRecognition();
+    recognition = new SpeechRecognition("vi");//vietnamese - Nhận dạng tiếng Việt với cordova hay ionic!
     recognition.onresult = function(event) {
         if (event.results.length > 0) {
             q.value = event.results[0][0].transcript;

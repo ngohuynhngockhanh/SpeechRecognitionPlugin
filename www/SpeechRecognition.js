@@ -8,9 +8,9 @@ var exec = require("cordova/exec");
     attribute unsigned long maxAlternatives;
     attribute DOMString serviceURI;
  */
-var SpeechRecognition = function () {
+var SpeechRecognition = function (lang) {
     this.grammars = null;
-    this.lang = "en";
+    this.lang = lang || "en";
     this.continuous = false;
     this.interimResults = false;
     this.maxAlternatives = 1;
