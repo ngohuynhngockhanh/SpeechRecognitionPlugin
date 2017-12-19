@@ -1,0 +1,32 @@
+{
+  "name": "org.apache.cordova.speech.speechrecognition",
+  "version": "0.1.2",
+  "description": "Cordova Speech Recognition Plugin",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngohuynhngockhanh/SpeechRecognitionPlugin"
+  },
+  "keywords": [
+    "cordova",
+    "whitelist",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "0.0.0": {
+        "cordova-android": ">=4.0.0"
+      },
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0"
+}
